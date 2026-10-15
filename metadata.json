@@ -1,0 +1,6 @@
+{
+  "name": "Chatter - Private E2EE Messenger",
+  "description": "Private end-to-end encrypted messaging, voice notes, calls, ephemeral chats, and Chatter AI assistant with zero server storage.",
+  "requestFramePermissions": ["camera", "microphone", "display-capture"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
