@@ -826,7 +826,7 @@ export default function App() {
 
   return (
     <div
-      className={`h-screen w-screen flex overflow-hidden font-sans ${currentTheme.bgClass} ${currentTheme.textPrimary}`}
+      className={`min-h-screen w-screen flex overflow-y-auto font-sans ${currentTheme.bgClass} ${currentTheme.textPrimary}`}
     >
       {/* Sidebar: always visible on desktop, hidden on mobile when viewing chat */}
       <div className={`h-full ${mobileShowChat ? 'hidden md:flex' : 'flex w-full md:w-auto'}`}>
